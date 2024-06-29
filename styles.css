@@ -1,0 +1,69 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    position: relative; 
+    margin-top: 20px;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease;
+}
+
+.button.red {
+    background-color: #FF0000; 
+    color: #FFFFFF;
+}
+
+.button.blue {
+    background-color: #0000FF; 
+    color: #FFFFFF;
+}
+
+.button:hover {
+    filter: brightness(90%);
+}
+
+.info-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 250px; 
+}
+
+.info-box h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.audio-player-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}

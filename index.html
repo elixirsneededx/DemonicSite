@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemonicSite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="playButton" class="button red">Play Video</button>
+        <button id="playMusicButton" class="button blue">Play Music</button>
+        <button id="stopMusicButton" class="button blue">Stop Music</button>
+        <div id="videoPlayer"></div>
+    </div>
+
+    <div class="info-box">
+        <h3>System Info</h3>
+        <div id="sessionInfo">
+            <p><strong>IP Address:</strong> <span id="ipAddress"></span></p>
+            <p><strong>Browser Info:</strong> <span id="browserInfo"></span></p>
+            <p><strong>Hardware Info:</strong> <span id="hardwareInfo"></span></p>
+            <p><strong>OS Info:</strong> <span id="osInfo"></span></p>
+            <p><strong>Session Runtime:</strong> <span id="sessionRuntime"></span></p>
+            <p><strong>Current Time:</strong> <span id="currentTime"></span></p>
+        </div>
+    </div>
+
+    <div id="audioPlayerContainer" class="audio-player-container">
+        <!-- Audio player will be inserted here dynamically -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
